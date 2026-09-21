@@ -1,0 +1,62 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #eef2f3;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.card {
+background-color: #ffffff;
+padding: 30px 40px;
+border-radius: 12px;
+border-left: 6px solid #2c3e50;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+text-align: center;
+}
+
+h1 {
+margin-top: 0;
+color: #2c3e50;
+font-size: 1.6rem;
+margin-bottom: 15px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+margin: 0;
+}
+
+.resultado {
+font-size: 1.2rem;
+color:black;
+font-weight: bold;
+}
+
+.grid-numeros {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+    gap: 8px;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.grid-numeros li {
+    background-color: #f8f9fa;
+    border: 1px solid #e1e8ed;
+    border-radius: 6px;
+    padding: 6px 0;
+    text-align: center;
+    font-weight: 600;
+    color: #34495e;
+    font-size: 0.95rem;
+}
