@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="ejercicio1.css">
     </head>
+
     <body>
-        <h1>Ejercicio 1</h1>
-        <?php
-        $nombre = "Esther";
-        $anyo = 2006;
-        ?>
-        <p>Me llamo <?php echo $nombre;?> y nací en el año <?php echo $anyo;?></p>
+        <div class="card">
+            <h1>Ejercicio 1</h1>
+            <?php
+            $nombre = "Esther";
+            $anyo = 2006;
+            echo "<p>Me llamo <span class='color'>$nombre</span> y nací en el año <span class='color'>$anyo</span>.</p>";
+            ?>
+        </div>
     </body>
 
 

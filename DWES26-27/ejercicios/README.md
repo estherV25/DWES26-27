@@ -1,18 +1,20 @@
 # Tema 1
 ## Ejercicio 1
 > *Crea una carpeta llamada ejercicios1 en tu carpeta de documentos de XAMPP y subirlo a github. En esta carpeta guardarás este ejercicio y los siguientes, ya que serán muchos y así evitamos llenar la carpeta de documentos de demasiadas subcarpetas con ejercicios cortos.*
+>
 > *Para este ejercicio, crea un documento en esta carpeta llamado info_basica.php, similar al del ejemplo anterior, pero mostrando tu nombre y tu año de nacimiento usando variables. Es decir, crearás dos variables para almacenar estos dos datos, y los mostrarás en una frase que diga “Me llamo XXXX y nací en el año YYYY”.*
+>
 > *Prueba la página en un navegador y echa un vistazo al código fuente, intentando detectar qué contenidos HTML se han generado desde PHP.*
 
 ### Resultado
-![alt text](image.png)
+![alt text](/ejercicios/imagenes/ejercicio1.png)
 
 ---
 ## Ejercicio 2
 >  *Crea una página en la carpeta de ejercicios llamada area_circulo.php. En ella, crea una variable $radio y ponle el valor 3.5. Según esa variable, calcula en otra variable el área del círculo (PI * 𝑟𝑎𝑑𝑖𝑜2), deberás definir la constante PI, y muestra por pantalla el texto “El área del círculo es XX.XX”, donde XX.XX será el resultado de calcular el área.*
 
 ### Resultado
-![alt text](image-2.png)
+![alt text](/ejercicios/imagenes/ejercicio2.png)
 
 ---
 ## Ejercicio 3
@@ -27,14 +29,12 @@
 > *Crea una página en la carpeta de ejercicios llamada curriculum.php donde, utilizando variables variables, muestres parte de tu currículum (por ejemplo, un párrafo con tus estudios y otro con los idiomas que hablas), tanto en español,valencià como en otro idioma que elijas.*
 
 ### Resultado
-![alt text](image-1.png)
-
+![alt text](imagenes/ejercicio3.png)
 #### Prueba_if.php
 > *Crea una página llamada prueba_if.php en la carpeta de ejercicios del tema. Crea en ella dos variables llamadas $nota1 y $nota2, y dales el valor de dos notas de examen cualesquiera (con decimales si quieres). Después, utiliza expresiones if..else para determinar qué nota es la mayor de las dos.*
 
 ### Resultado
-![alt text](image-3.png)
-
+![alt text](imagenes/ejercicio4.png)
 ---
 ## Ejercicio 5
 > *Modifica el ejercicio anterior añadiendo una tercera nota $nota3 , y determinando cuál de las 3 notas es ahora la mayor. Para ello, deberás ayudarte esta vez de la estructura if..elseif..else.*

@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="ejercicio4.css">
     </head>
+
     <body>
-        <h1>Ejercicio 4</h1>
-        <?php
-        $estudios_es = "La ESO, grado medio SMR y grado superior DAW";
-        $estudios_val = "ESO, grau mitxa, SMR, grau superior DAW";
-        $idiomas_es = "Español, valenciano, ingles, italiano";
-        $idiomas_ing = "Spanish, valencian, english, italian ";
-        
-        echo "Estudios esp: $estudios_es<br> Estudios val: $estudios_val <br> Idiomas esp: $idiomas_es <br> Idiomas ing: $idiomas_ing"
-        ?>
+        <div class="card">
+            <h1>Ejercicio 4</h1>
+            <?php
+            $estudios_es = "La ESO, Grado Medio SMR y Grado Superior DAW";
+            $estudios_val = "ESO, Grau Mitjà SMR y Grau Superior DAW";
+            $idiomas_es = "Español, Valenciano, Inglés, Italiano";
+            $idiomas_ing = "Spanish, Valencian, English, Italian";
+            ?>
+
+            <div class="section">
+                <h2>Estudios / Estudis</h2>
+                <p><strong>Español:</strong> <?php echo $estudios_es; ?></p>
+                <p><strong>Valencià:</strong> <?php echo $estudios_val; ?></p>
+            </div>
+
+            <div class="section">
+                <h2>Idiomas / Languages</h2>
+                <p><strong>Español:</strong> <?php echo $idiomas_es; ?></p>
+                <p><strong>English:</strong> <?php echo $idiomas_ing; ?></p>
+            </div>
+        </div>
     </body>
 
 
