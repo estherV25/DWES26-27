@@ -14,5 +14,9 @@ cambia que reciba 2 parámetros numéricos por referencia, y lo que haga sea int
 biar sus valores. Es decir, si recibe el parámetro `$a` y el valor de `$b` , y `$b` tome el valor
 de `$a`.
 
+![alt text](img/ejercicio2.png)
+---
+
+## Ejercicios funciones 3
 
 ---
