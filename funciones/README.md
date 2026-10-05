@@ -57,5 +57,26 @@ Vamos a simular un formulario de acceso:
 
 **ko.php**: El usuario es incorrecto. Informar si ambos están mal o solo la contraseña. Volver amostrar el formulario de acceso
 
-
+![alt text](img/ejercicio6.1.png)
+![alt text](img/ejercicio6.2.png)
 ---
+
+## Ejercicio funciones 7
+Lee una frase y devuelve una nueva con solo los caracteres de las posiciones impares.
+
+![alt text](img/ejercicio7.png)
+---
+
+## Ejercicio funciones 8
+A partir de una frase con palabras sólo separadas por espacios, devolver:
+- Letras totales y cantidad de palabras
+- Una línea por cada palabra indicando su tamaño
+Nota: no se puede usar str_word_count
+
+![alt text](img/ejercicio8.png)
+---
+
+## Ejercicio funciones 9
+Investiga que hace la función `str_word_count`, y vuelve a hacer el ejercicio.
+
+![alt text](img/ejercicio9.png)
