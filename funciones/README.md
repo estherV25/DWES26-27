@@ -43,7 +43,19 @@ por la izquierda, la posición $pos.
 - `quitaPorDetras(int $num, int $cant): int` → le quita por detrás (derecha) $cant dígitos.
 - `quitaPorDelante(int $num, int $cant): int` → le quita por delante (izquierda) $cant dígitos.
 
-
+![alt text](img/ejercicio5.png)
 ---
 
-## 
+## Ejercicio funciones 6
+Vamos a simular un formulario de acceso:
+
+`login.php`: el formulario de entrada, que solicita el usuario y contraseña
+
+`compruebaLogin.php`: recibe los datos y comprueba si son correctos (los usuarios se guardan en un array asociativo) pasando el control mediante el uso de include a:
+
+**ok.php**: El usuario introducido es correcto
+
+**ko.php**: El usuario es incorrecto. Informar si ambos están mal o solo la contraseña. Volver amostrar el formulario de acceso
+
+
+---
