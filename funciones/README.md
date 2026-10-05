@@ -32,7 +32,18 @@ para extraer por separado la hora, el minuto y el segundo, y comprobar si es una
 Por ejemplo, la hora anterior sí debería ser válida, pero si ponemos “12:63:11” no debería serlo,
 porque 63 no es un minuto válido.
 
+![alt text](img/ejercicio4.png)
+---
 
+## Ejercicio funciones 5
+Añade las siguientes funciones:
+- `digitos(int $num): int `→ devuelve la cantidad de dígitos de un número.
+- `digitoN(int $num, int $pos): int` → devuelve el dígito que ocupa, empezando
+por la izquierda, la posición $pos.
+- `quitaPorDetras(int $num, int $cant): int` → le quita por detrás (derecha) $cant dígitos.
+- `quitaPorDelante(int $num, int $cant): int` → le quita por delante (izquierda) $cant dígitos.
 
 
 ---
+
+## 
