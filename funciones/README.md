@@ -80,3 +80,20 @@ Nota: no se puede usar str_word_count
 Investiga que hace la función `str_word_count`, y vuelve a hacer el ejercicio.
 
 ![alt text](img/ejercicio9.png)
+---
+
+## Ejercicio funciones 10
+EsCrIbE uNa FuNcIóN qUe TrAnSfOrMe UnA cAdEnA eN cAnI.
+
+![alt text](img/ejercicio10.png)
+---
+
+## Ejercicio funciones 11
+Escribe una función que devuelva un booleano indicando si una palabra es palíndroma (se lee
+igual de izquierda a derecha que de derecha a izquierda, por ejemplo, `"ligar es ser agil"`).
+
+![alt text](img/ejercicio11.png)
+---
+
+## Ejercicio funciones 12
+
